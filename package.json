@@ -1,0 +1,39 @@
+{
+    "private": false,
+    "name": "cw-core",
+    "description": "Core library on node js",
+    "homepage": "https://github.com/catwalkagogo/cw-core/",
+    "keywords": [
+        "util",
+        "nodejs"
+    ],
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": {
+        "name": "catwalkagogo",
+        "email": "catwalkagogo@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/catwalkagogo/cw-core.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/catwalkagogo/cw-core/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "underscore": "^1.6.0"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-contrib-copy": "^0.5.0",
+        "grunt-contrib-uglify": "^0.4.0",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-ts": "^1.11.2",
+        "grunt-typescript-export": "^0.1.0"
+    },
+    "readmeFilename": "README.md"
+}
